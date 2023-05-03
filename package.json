@@ -15,9 +15,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  "dev": "next dev",
+  "build": "next build && next export",
+  "start": "next start",
+  "lint": "next lint"
   },
   "eslintConfig": {
     "extends": [
